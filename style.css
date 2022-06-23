@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 1.1rem;
+}
+
+.top {
+    background: url(./images/portada.webp);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+/* Header */
+header {
+    height: 64px;
+    padding: 0 4%;
+    padding-top: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+#logoi {
+    width: 93px;
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.enlaces_menu {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+}
+
+.nav_menu {
+    font-size: 0.95rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    align-items: center;
+
+    display: flex;
+}
+
+.user_menu {
+    font-size: 0.95rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+    display: flex;
+}
+
+/* Body */
+
+/* Destacado */
+
+.destacado {
+    width: 39%;
+    padding-left: 4vw;
+    padding-top: 8vw;
+}
+
+.informaciondiv {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulodiv {
+    width: 472px;
+}
+
+.titulodiv img {
+    width: 110%;
+}
+
+.mensaje {
+    color: white;
+    font-size: 1.6vw;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+    margin: 1vw 0;
+}
+
+.sinopsis {
+    color: white;
+    font-weight: 600;
+    line-height: 1.25;
+    font-size: 1.2vw;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+}
+
+/* Populares  y Tendencias */
+
+.populares {
+    padding-top: 11vw;
+}
+
+.tendencias {
+    padding-top: 3vw;
+    background: #141414;
+}
+
+.imagenesbarras {
+    width: 239px;
+}
+
+.imagenesbarras img {
+    width: 100%;
+}
+
+.pop {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2.3vw;
+}
+
+.ten {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2.3vw;
+}
+
+.subtitulos {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 1.25;
+    font-size: 1.4vw;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+    padding-left: 4vw;
+    margin-bottom: 1vw;
+}
+
+/* Moviles */
+@media screen and (max-width: 800px) {
+    #niños {
+        display: none;
+    }
+    .enlaces_menu {
+        display: none;
+    }
+
+    #explorar {
+        display: block;
+    }
+}
+
+/* Escritorio */
+@media screen and (min-width: 800px) {
+}
