@@ -99,6 +99,35 @@ header {
     text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
 }
 
+.botones {
+    margin-top: 1rem;
+}
+
+.btnreproducir {
+    padding-left: 2rem;
+    padding-right: 2.4rem;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    border: 0px;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+.btnmasinfo {
+    padding-left: 2rem;
+    padding-right: 2.4rem;
+    background-color: rgb(110, 110, 110, 0.7);
+    color: white;
+    border-radius: 4px;
+    border: 0px;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
 /* Populares  y Tendencias */
 
 .populares {
